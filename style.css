@@ -1,0 +1,45 @@
+{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.title{
+  background-color:white;
+  color:#272828;
+}
+.oallrelaydiagram{
+  max-width:  auto;
+  box-sizing: border-box;
+}
+.oallrelayexamples{
+  max-width:  auto;
+  box-sizing: border-box;
+}
+.description{
+  padding: 1%;
+}
+.relaydiagram-container{
+  max-width:  800px;
+  padding: 1%;
+  vertical-align:middle;
+  margin: auto;
+  border-style: groove;
+  box-sizing: border-box;
+}
+.diagram{
+  vertical-align: middle;
+  width: 100%
+}
+.relay-container{
+  max-width:  800px;
+  padding: 1%;
+  vertical-align:middle;
+  margin: auto;
+  border-style: groove;
+  box-sizing: border-box;
+}
+.slides{
+  vertical-align: middle;
+  width: 100%;
+}

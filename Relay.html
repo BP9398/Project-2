@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>What is a Relay?</title>
+</head>
+<body>
+  <h1 class="title">12v Relay Basics</h1>
+  <hr>
+  <div class="oallrelaydiagram">
+    <h2 class="relayoverview">What is a relay?</h2>
+    <div class="overview">
+      <p>A relay is very <em> powerful, useful and common component</em> in 12
+        automotive electronics.  A relay is essentially a
+        <span style="text-decoration: underline;">switch</span>, the switch
+        allows higher amperage to pass through the circuit and takes the
+        stress off the user operated switch inside the vehicle.  Utilizing relays
+        when adding accessories will not only greatly increase the safety factor
+        of your wiring, but as you become accustomed to their use they will make
+        the wiring job go much smoother.
+      </p>
+    </div>
+    <div class="relay">
+      <div class="relaydiagram-container">
+        <img class="diagram" src="images/relaydiag.jpg" alt="relay diagram">
+        <div class="description">
+          This is a relay, it serves as a switch
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="oallrelayexamples">
+    <h2 class="relayexamples">Relay Diagrams</h2>
+    <p> The pictures below were retreived from various automotive forums on the
+      internet.  These are just some examples of how a relay can be used.  These
+      examples were published by unknown sources, but are representative of the
+      proper use and wiring of a relay in typical 12v automotive use.
+      <br>
+      <br>
+      <em>Below are common lighting diagrams where relays are utilized</em>
+    </p>
+    <div class="relay-container">
+    <img class="slides" src="images/simplerelaycircuit2.jpg" alt="relay example">
+    <img class="slides" src="images/simplerelaycircuit3.gif" alt="relay example">
+    <img class="slides" src="images/simplerelaycircuit4.jpg" alt="relay example">
+    </div>
+  </div>
+
+  <!--This code below was sourced from the w3schools.com website and modified for
+for use in this project-->
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000);
+  }
+</script>
+</body>
+</html
